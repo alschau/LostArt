@@ -9,7 +9,7 @@ from scrapy_splash import SplashRequest
 
 class ImageSpider(scrapy.Spider):
     name = "imagespider"
-    start_url = "https://www.willhaben.at/iad/kaufen-und-verkaufen/marktplatz/gemaelde-bilder/gemaelde-7048?sfId=c9164799-0d49-498b-8156-35f19381b381&isNavigation=true&page=1&sort=1"
+    start_url = "https://www.willhaben.at/iad/kaufen-und-verkaufen/marktplatz/gemaelde-bilder/gemaelde-7048/a/motive-landschaft-5348?sfId=c9164799-0d49-498b-8156-35f19381b381&sort=4&rows=30&isNavigation=true&page=40"
 
     # --- Lookup Tables for Detail Information ---
     motives = ["Abstrakt", "Comic/Zeichnungen", "Landschaft", "Natur/Pflanzen", "Portraits/Menschen", "Schrift", "Städte/Gebäude", "Tiere", "Andere Motive"]
@@ -18,7 +18,7 @@ class ImageSpider(scrapy.Spider):
     handovers = ["Selbstabholung", "Versand", "Selbstabholung, Versand"]
 
     # --- Variables ---
-    nr_of_sites = 5
+    nr_of_sites = 1
 
     # --- List of User Agents ---
     user_agent_list = [

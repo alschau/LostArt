@@ -9,9 +9,20 @@ __pycache__/
 # Ignoring specific Data Files
 artworks.csv
 artworks.json
+updated_artworks.json
+test_lostart.csv
+my_model.keras
+euclideanDist.py
+scrapy.cfg
+siamese_artwork_model_augmented.h5
+siamese_artwork_model_augmented.keras
+
 
 # Ignore the entire images directory
 images/
+Datasets/
+Exports/
+lostArtScraper/
 
 # Distribution / packaging
 .Python
